@@ -5,3 +5,11 @@ Como saber se determinada funcionalidade do ES2015+ (ES6) é suportada por cada 
 Qual é a diferença entre variáveis declaradas com var e let?
   Declarações com var possuem escopo de função ou global. Variáveis declaradas com let tem escopo de bloco e o JavaScript lançará um erro se a mesma for declarada mais de uma vez.
 
+
+Sobre o modelo MVC, podemos afirmar que:
+  O controller é aquele que recebe as ações do usuário e que sabe interagir com o modelo. Como o modelo é independente da view, esta precisa ser renderizada para que reflita as alterações no modelo. Em suma, o controller é a ponte de ligação entre a view e o modelo.
+  O padrão MVC permite que alterações de layout na view não acarretem alterações no modelo.
+  A view apresenta um modelo em uma tabela, em um formulário ou em parágrafos, e o padrão MVC permite que qualquer alteração na view não interfira com o modelo.
+
+  
+    
